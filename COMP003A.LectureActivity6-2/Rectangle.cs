@@ -26,6 +26,9 @@ namespace COMP003A.LectureActivity6_2
             Width = width;
         }
 
+        /// <summary>
+        /// Displays the area of a rectangle
+        /// </summary>
         public override void DisplayArea()
         {
             Console.WriteLine($"Rectangle Area: {Length * Width}");
